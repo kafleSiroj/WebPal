@@ -33,7 +33,7 @@ async def output(text: Data):
         "model": "mistral-large-latest", 
         "messages": [
             {"role": "system", "content": "Summarize the information from the following messages in bullet points, keeping the summary about one-third the length of the original. If the text lacks detail, respond: 'This text does not have much detail to summarize.' If programming code is given, explain what it does in bullet points. If the input is a question, answer it. If the answer is long or lists multiple points, give it in bullet form. If the answer is short (e.g., a definition, law, or single fact), give it directly without bullets."},
-            {"role": "user", "content": f"{text.prompt}"}
+            {"role": "user", "content": text.prompt}
         ],
         "temperature": 0.7,
         "max_tokens": 2000
