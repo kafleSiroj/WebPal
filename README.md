@@ -62,7 +62,7 @@ uvicorn mistral:app --reload
 
 ---
 
-## **5. Enjoy the Extension** 🎉  
+## **5. Enjoy the Extension**  
 - Use the popup menu to **control font size** of any webpage.  
 - Select text and **summarize it instantly** using Mistral AI.  
 
