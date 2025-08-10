@@ -56,6 +56,7 @@ export API_KEY=your_mistral_api
 ## **4. Run the Backend Server**  
 
 ```bash
+pip install -r requirements.txt
 uvicorn mistral:app --reload
 ```
 
